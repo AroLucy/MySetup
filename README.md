@@ -7,8 +7,11 @@ This is a guide on how to get a Setup like mine
 ![](https://github.com/LucyUwI/MySetup/blob/main/66em8kur2rl71.png?raw=true)
 
 # How to install
-[Arch and Arch-Based Distros](#arch) \
-[Ubuntu, KDE Neon and other Ubuntu/Debain-based distros](#deb)
+[Arch and Arch-Based Distros Setup](#arch) \
+[Ubuntu, KDE Neon and other Ubuntu/Debain-based distros Setup](#deb)
+
+
+[Configuration](#config)
 
 # <a name="arch"></a> Arch
 
@@ -64,5 +67,49 @@ git clone https://aur.archlinux.org/latte-dock-git
 cd latte-dock-git
 makepkg -si
 ```
+
+# <a name="deb"></a> Ubuntu, KDE Neon and other Ubuntu/Debain-based distros
+
+[Installing KDE](#kde-deb) \
+[Installing latte-dock-git](#ld-deb) 
+
+
+### <a name="kde-deb"></a> Installing KDE
+
+Minimal:
+```bash
+sudo apt install plasma-dektop
+```
+Full:
+```bash
+sudo apt install plasma-full
+```
+Standard:
+```bash
+sudo apt install plasma-standard
+```
+
+(Optional) Wayland Session 
+```bash
+sudo apt install plasma-workspace-wayland
+```
+
+### <a name="ld-deb"></a> Installing Latte-dock-git
+
+#### Non-KDE Neon distros
+```bash 
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt update
+sudo apt dist-upgrade
+```
+
+```bash
+sudo apt install git cmake extra-cmake-modules qtdeclarative5-dev libqt5x11extras5-dev libkf5iconthemes-dev libkf5plasma-dev libkf5windowsystem-dev libkf5declarative-dev libkf5xmlgui-dev libkf5activities-dev build-essential libxcb-util-dev libkf5wayland-dev git gettext libkf5archive-dev libkf5notifications-dev libxcb-util0-dev libsm-dev libkf5crash-dev libkf5newstuff-dev libxcb-shape0-dev libxcb-randr0-dev libx11-dev libx11-xcb-dev kirigami2-dev
+git clone https://github.com/kde/latte-dock
+cd latte-dock
+sh install.sh
+```
+
+# <a name="config"></a> Configuration
 
 
