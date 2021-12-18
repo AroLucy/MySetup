@@ -1,3 +1,3 @@
 # MySetup
 
-![](https://github.com/LucyUwi/MySetup/blob/Main/
+![](https://github.com/LucyUwI/MySetup/blob/main/66em8kur2rl71.png?raw=true)
