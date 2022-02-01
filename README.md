@@ -61,8 +61,7 @@ yay -S latte-dock-git
 
 ### <a name="ld-arch"></a> Installing Latte-dock-git W/O YAY
 ```bash
-sudo pacman -Syu
-make extra-cmake-modules python plasma-framework plasma-desktop
+sudo pacman -Syu make extra-cmake-modules python plasma-framework plasma-desktop
 git clone https://aur.archlinux.org/latte-dock-git
 cd latte-dock-git
 makepkg -si
