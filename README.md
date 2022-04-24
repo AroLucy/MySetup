@@ -3,11 +3,11 @@
 This is a guide on how to get a Setup like mine
 
 ## Screenshot
+
 #### Light
-
 ![](https://github.com/LucyUwI/MySetup/blob/main/66em8kur2rl71.png?raw=true)
-####Nord
 
+#### Nord
 ![](https://github.com/LucyUwI/MySetup/blob/main/as.png?raw=true)
 # How to install
 [Arch and Arch-Based Distros Setup](#arch) \
