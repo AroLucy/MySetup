@@ -3,10 +3,12 @@
 This is a guide on how to get a Setup like mine
 
 ## Screenshot
-#### Light 
+#### Light
+
 ![](https://github.com/LucyUwI/MySetup/blob/main/66em8kur2rl71.png?raw=true)
 ####Nord
-![](https://github.com/LucyUwI/MySetup/blob/main/a.png?raw=true)
+
+![](https://github.com/LucyUwI/MySetup/blob/main/as.png?raw=true)
 # How to install
 [Arch and Arch-Based Distros Setup](#arch) \
 [Ubuntu, KDE Neon and other Ubuntu/Debain-based distros Setup](#deb)
